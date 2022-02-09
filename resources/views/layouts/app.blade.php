@@ -14,6 +14,7 @@
     <main>
         @include('partials.jumbo')
         @yield('main_content')
+        @include('components.section')
     </main>
 
     @include('partials.footer')

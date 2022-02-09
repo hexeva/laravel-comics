@@ -129,3 +129,27 @@ header .right-col ul li a.active {
 .product .product-title {
   text-transform: uppercase;
 }
+
+section {
+  width: 100%;
+  height: 160px;
+  background-color: #0884f5;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.logos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.logos .logo-contents {
+  display: flex;
+  align-items: center;
+}
+.logos .logo-contents .single-logo {
+  width: 45px;
+  margin-right: 20px;
+}
