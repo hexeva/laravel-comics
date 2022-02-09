@@ -12,7 +12,9 @@ DC Comics
         <a href="#">current series</a>
     </div>
     <div class="product-list">
-        <!-- QUI CI ANDRANNO I SINGOLI COMPONENTI -->
+        <!-- QUI CI ANDRANNO I SINGOLI dischi -->
+        @forelse ($comics_array as $disc)
+
         <div class="product">
             <div class="product-img">
                 <img src="" alt="">
@@ -21,6 +23,12 @@ DC Comics
                 <h3>serie</h3>
             </div>
         </div> 
+            
+        @empty
+        <h2>No discs found</h2>
+            
+        @endforelse
+        
     </div>
 </div>
 
