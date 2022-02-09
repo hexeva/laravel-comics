@@ -13,14 +13,14 @@ DC Comics
     </div>
     <div class="product-list">
         <!-- QUI CI ANDRANNO I SINGOLI dischi -->
-        @foreach ($comics_array as $comic)
+        @foreach ($comics as $comic)
         
         <div class="product">
             <div class="product-img">
-                <img src="" alt="">
+                <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
             </div>
             <div class="product-title">
-                <h3>serie</h3>
+                <h3>{{$comic['series']}}</h3>
             </div>
         </div> 
 
