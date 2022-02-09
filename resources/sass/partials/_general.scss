@@ -1,0 +1,40 @@
+// reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    color: white;
+    background-color: #1c1c1c;
+    
+}
+h2{
+    color: white;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height:100%;
+ 
+  }
