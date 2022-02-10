@@ -22,3 +22,9 @@ Route::get('/', function () {
     // dd($comics_array);
     return view('home',$comics_list);
 })->name('home');
+
+
+Route::get('/about-comics',function() {
+
+    return view('about');
+})->name('about');

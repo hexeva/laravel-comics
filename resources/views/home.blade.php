@@ -3,6 +3,9 @@
 @section('page_title')
 DC Comics
 @endsection
+@section('main_classes')
+main-colors
+@endsection
 
 
 @section('main_content')
@@ -17,5 +20,7 @@ DC Comics
         
     </div>
 </div>
+@include('components.section')
+
 
 @endsection

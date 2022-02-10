@@ -11,11 +11,13 @@
 
     @include('partials.header')
 
-    <main>
+    <main class="@yield('main_classes')">
         @include('partials.jumbo')
         @yield('main_content')
-        @include('components.section')
+
     </main>
+
+
 
     @include('partials.footer')
     
