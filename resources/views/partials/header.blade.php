@@ -10,7 +10,9 @@
     <div class="container">
         <div class="left-col">
             <div class="logo">
-                <img src="{{ asset('images/dc-logo.png') }}" alt="logo dc">
+                <a href="{{route('home')}}">
+                    <img src="{{ asset('images/dc-logo.png') }}" alt="logo dc">
+                </a>
             </div>
         </div>
         <div class="right-col">
