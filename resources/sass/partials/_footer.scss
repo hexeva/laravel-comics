@@ -1,0 +1,83 @@
+footer {
+    width: 100%;
+        .footer-top{
+            background-image: url(../images/footer-bg.jpg);
+            // @include background_general;
+            overflow: hidden;
+            .container{
+                    display: flex;
+                    position: relative;
+                        .links-section{
+                            width: 60%;
+                            padding: 35px 0;
+                            display: flex;
+                            .links{
+                                margin-right:30px;
+                                li{
+                                margin: 8px 0;
+                                a{
+                                    color:$brand_footer_color;
+                                }
+                            }
+                            }
+                            
+                        }
+                        .dc_logo{
+                            width: 40%;
+                            position: absolute;
+                            top:-29%;
+                            right: 0;
+                        }
+                }
+                // end container
+            
+        }
+        // end footer top      
+}
+h2{
+    margin:20px 0;
+}
+
+section{
+    background-color: darken($brand_footer_color, 30%);
+    width: 100%;
+    // test
+    height: 100px;
+    .container{
+        display: flex;
+        
+        .footer-btn{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+                 a{
+                    font-size: 20px;
+                    color:$brand_secondary_color;
+                    background-color: darken($brand_footer_color, 30%);
+                    border: 2px solid $brand_hover_color;
+                    padding:13px 22px;
+                }
+   
+        }
+        .links{
+            width: 50%;
+            height: 100%;
+            ul{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                li{
+                    margin: 0 20px;
+                    a{
+                        color: $brand_hover_color;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    // end container
+   
+}
