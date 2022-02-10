@@ -8,7 +8,7 @@
     <div class="about-top">
         <div class="about-container">
             <div class="card-detail">
-                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">
+                <img src="{{$comic_info['thumb']}}" alt="{{$comic_info['title']}}">
                 <div class="detail-title">
                     view gallery
                 </div>
@@ -23,13 +23,16 @@
                 <div class="comic-info">
                     <div class="comic-price">
                         <div class="price">
-                            <h3>PRICE</h3>
+                            <h3>U.S.PRICE: {{$comic_info['price']}}</h3>
                         </div>
                         <div class="available">
                             <h3>available</h3>
                         </div>
                     </div>
                     <div class="comic-check">Check Availability</div>
+                </div>
+                <div class="comic-description">
+                    <p>{{$comic_info['description']}}</p>
                 </div>
             </div>
             <div class="about-rigth">RIGTH</div>

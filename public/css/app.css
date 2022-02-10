@@ -229,6 +229,9 @@ section {
   font-size: 15px;
   text-transform: uppercase;
 }
+.about-bottom .about-left .comic-description {
+  margin: 30px 0;
+}
 .about-bottom .about-right {
   width: 30%;
 }
