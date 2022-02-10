@@ -18,10 +18,10 @@
         <div class="right-col">
             <ul>
                 <li>
-                    <a href="">characters</a>
+                    <a class="{{ Request::route()->getName()==='home' ? 'active' : '' }}" href=" {{route('home')}} ">characters</a>
                 </li>
                 <li>
-                    <a href="">comics</a>
+                    <a class="{{ Request::route()->getName()==='about' ? 'active' : '' }}" href="">comics</a>
                 </li>
                 <li>
                     <a href="">movies</a>

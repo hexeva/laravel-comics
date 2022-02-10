@@ -75,6 +75,8 @@ header .right-col ul li {
 header .right-col ul li a {
   display: inline-block;
   line-height: 110px;
+  padding-bottom: 12px;
+  color: #4a4853;
 }
 header .right-col ul li a.active {
   border-bottom: 5px solid #0884f5;

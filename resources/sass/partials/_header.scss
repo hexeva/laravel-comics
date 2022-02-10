@@ -36,6 +36,8 @@ header{
             a {
                 display: inline-block;
                 line-height: 110px;
+                padding-bottom: 12px;
+                color:$brand_primary_color;
                 &.active{
                     border-bottom: 5px solid $brand_hover_color;
                     color:$brand_hover_color
