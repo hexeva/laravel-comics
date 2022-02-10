@@ -2,7 +2,9 @@ footer {
     width: 100%;
         .footer-top{
             background-image: url(../images/footer-bg.jpg);
-            // @include background_general;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: unset;
             overflow: hidden;
             .container{
                     display: flex;
