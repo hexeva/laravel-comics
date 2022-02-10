@@ -30,9 +30,12 @@ Route::get('/about-comics/{id}',function($id) {
     $comic_to_show=false;
 
     foreach($comics_array as $comic){
-        if($comic['id']==$id){
+        if($comic['id'] == $id){
             $comic_to_show = $comic;
         }
+    }
+    if(!$comic_to_show){
+        abort('404');
     }
 
     $data =[
