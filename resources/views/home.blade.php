@@ -12,8 +12,8 @@ DC Comics
         <a href="#">current series</a>
     </div>
     <div class="product-list">
-        <!-- QUI CI ANDRANNO I SINGOLI dischi -->
-        @include('components.comic')
+        <!-- QUI CI ANDRANNO I SINGOLI comics -->
+        @include('components.comic',['comic_list'=>$comics])
         
     </div>
 </div>
